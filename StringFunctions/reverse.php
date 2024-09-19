@@ -3,7 +3,7 @@ Write a PHP function to reverse a given string without using PHP's strrev() func
 
 Explanation:
 To reverse a string, we need to loop through it from the end to the beginning and concatenate each character to a new string. -->
-
+<!-- Manual Reversal: We iterate through the string backwards using a for loop and append each character to the result string. -->
 <?php
 function reverseString($str) {
     $reversed = "";
