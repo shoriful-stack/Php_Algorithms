@@ -14,7 +14,7 @@ function factorial_loop($n){
     }
     return $result;
 }
-echo factorial_loop(5);
+echo factorial_loop(7);
 
 ?>
 
@@ -29,6 +29,6 @@ function factorial_recursion($n){
     // Recursive case: Return n multiplied by the factorial of (n - 1)
     return $n * factorial_recursion($n - 1);
 }
-echo factorial_recursion(6);
+echo factorial_recursion(7);
 
 ?>
