@@ -11,7 +11,8 @@ function getOdd($numbers){
 
 $numbers = [1,2,3,4,5,6,7,8,9];
 $result = getOdd($numbers);
-// echo "The odd numbers of the numbers are:".implode("," ,$oddNum);
+echo "The odd numbers of the numbers are:".implode("," ,$result);
+echo "\n";
 
 ?>
 <?php 
